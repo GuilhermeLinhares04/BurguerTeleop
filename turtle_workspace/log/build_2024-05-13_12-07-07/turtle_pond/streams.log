@@ -1,0 +1,21 @@
+[15.089s] Invoking command in '/home/guilherme04/turtle_workspace/src/turtle_pond': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_pond/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_pond build --build-base /home/guilherme04/turtle_workspace/build/turtle_pond/build install --record /home/guilherme04/turtle_workspace/build/turtle_pond/install.log --single-version-externally-managed install_data
+[17.942s] running egg_info
+[17.945s] writing ../../build/turtle_pond/turtle_pond.egg-info/PKG-INFO
+[17.946s] writing dependency_links to ../../build/turtle_pond/turtle_pond.egg-info/dependency_links.txt
+[17.948s] writing entry points to ../../build/turtle_pond/turtle_pond.egg-info/entry_points.txt
+[17.950s] writing requirements to ../../build/turtle_pond/turtle_pond.egg-info/requires.txt
+[17.950s] writing top-level names to ../../build/turtle_pond/turtle_pond.egg-info/top_level.txt
+[17.956s] reading manifest file '../../build/turtle_pond/turtle_pond.egg-info/SOURCES.txt'
+[17.974s] writing manifest file '../../build/turtle_pond/turtle_pond.egg-info/SOURCES.txt'
+[17.989s] running build
+[17.993s] running build_py
+[18.020s] running install
+[18.025s] running install_lib
+[18.036s] running install_data
+[18.037s] running install_egg_info
+[18.040s] removing '/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages/turtle_pond-0.0.0-py3.10.egg-info' (and everything under it)
+[18.054s] Copying ../../build/turtle_pond/turtle_pond.egg-info to /home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages/turtle_pond-0.0.0-py3.10.egg-info
+[18.092s] running install_scripts
+[18.229s] Installing turtle script to /home/guilherme04/turtle_workspace/install/turtle_pond/lib/turtle_pond
+[18.261s] writing list of installed files to '/home/guilherme04/turtle_workspace/build/turtle_pond/install.log'
+[18.740s] Invoked command in '/home/guilherme04/turtle_workspace/src/turtle_pond' returned '0': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_pond/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_pond build --build-base /home/guilherme04/turtle_workspace/build/turtle_pond/build install --record /home/guilherme04/turtle_workspace/build/turtle_pond/install.log --single-version-externally-managed install_data

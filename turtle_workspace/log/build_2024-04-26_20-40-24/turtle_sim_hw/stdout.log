@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtle_sim_hw.egg-info
+writing turtle_sim_hw.egg-info/PKG-INFO
+writing dependency_links to turtle_sim_hw.egg-info/dependency_links.txt
+writing entry points to turtle_sim_hw.egg-info/entry_points.txt
+writing requirements to turtle_sim_hw.egg-info/requires.txt
+writing top-level names to turtle_sim_hw.egg-info/top_level.txt
+writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+reading manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle-sim-hw.egg-link (link to .)
+Installing start script to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/turtle_sim_hw
+
+Installed /home/guilherme04/turtle_workspace/build/turtle_sim_hw
+running symlink_data
+creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index
+creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index
+creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages
+symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/resource/turtle_sim_hw -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages
+symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/package.xml -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/turtle_sim_hw

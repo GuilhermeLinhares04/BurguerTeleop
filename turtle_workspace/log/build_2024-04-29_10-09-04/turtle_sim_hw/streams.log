@@ -1,0 +1,21 @@
+[1.523s] Invoking command in '/home/guilherme04/turtle_workspace/src/turtle_sim_hw': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_sim_hw/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_hw build --build-base /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build install --record /home/guilherme04/turtle_workspace/build/turtle_sim_hw/install.log --single-version-externally-managed install_data
+[1.970s] running egg_info
+[1.975s] writing ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/PKG-INFO
+[1.980s] writing dependency_links to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/dependency_links.txt
+[1.980s] writing entry points to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/entry_points.txt
+[1.980s] writing requirements to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/requires.txt
+[1.980s] writing top-level names to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/top_level.txt
+[1.982s] reading manifest file '../../build/turtle_sim_hw/turtle_sim_hw.egg-info/SOURCES.txt'
+[1.986s] writing manifest file '../../build/turtle_sim_hw/turtle_sim_hw.egg-info/SOURCES.txt'
+[1.987s] running build
+[1.987s] running build_py
+[1.989s] running install
+[1.990s] running install_lib
+[1.993s] running install_data
+[1.995s] running install_egg_info
+[2.000s] removing '/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw-0.0.0-py3.10.egg-info' (and everything under it)
+[2.001s] Copying ../../build/turtle_sim_hw/turtle_sim_hw.egg-info to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw-0.0.0-py3.10.egg-info
+[2.007s] running install_scripts
+[2.038s] Installing start script to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/turtle_sim_hw
+[2.041s] writing list of installed files to '/home/guilherme04/turtle_workspace/build/turtle_sim_hw/install.log'
+[2.134s] Invoked command in '/home/guilherme04/turtle_workspace/src/turtle_sim_hw' returned '0': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_sim_hw/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_sim_hw build --build-base /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build install --record /home/guilherme04/turtle_workspace/build/turtle_sim_hw/install.log --single-version-externally-managed install_data

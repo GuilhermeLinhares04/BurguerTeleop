@@ -1,0 +1,5 @@
+  File "/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages/turtle_pond/turtle.py", line 91
+    kill_request.
+                 ^
+SyntaxError: invalid syntax
+

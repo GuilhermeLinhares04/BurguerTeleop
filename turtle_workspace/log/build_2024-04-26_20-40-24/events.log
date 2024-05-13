@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (-) JobUnselected: {'identifier': 'turtle_pond'}
+[0.000386] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000409] (turtle_sim_hw) JobQueued: {'identifier': 'turtle_sim_hw', 'dependencies': OrderedDict()}
+[0.000434] (turtle_sim_hw) JobStarted: {'identifier': 'turtle_sim_hw'}
+[0.098855] (-) TimerEvent: {}
+[0.199418] (-) TimerEvent: {}
+[0.299999] (-) TimerEvent: {}
+[0.400598] (-) TimerEvent: {}
+[0.501375] (-) TimerEvent: {}
+[0.601969] (-) TimerEvent: {}
+[0.702615] (-) TimerEvent: {}
+[0.803094] (-) TimerEvent: {}
+[0.903648] (-) TimerEvent: {}
+[1.004246] (-) TimerEvent: {}
+[1.010223] (turtle_sim_hw) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/guilherme04/turtle_workspace/build/turtle_sim_hw/build', '--no-deps', 'symlink_data'], 'cwd': '/home/guilherme04/turtle_workspace/build/turtle_sim_hw', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'guilherme04', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/guilherme04', 'OLDPWD': '/home/guilherme04/turtle_workspace/src', 'ROS_PYTHON_VERSION': '3', 'GOROOT': '/usr/local/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'guilherme04', 'NAME': 'DESKTOP-KJCV4VQ', 'WSL_INTEROP': '/run/WSL/700_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/guilherme04/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Guilherme/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Guilherme/AppData/Roaming/npm:/snap/bin:/usr/local/go/bin:/home/guilherme04/go/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim:/home/guilherme04/turtle_workspace/install/turtle_pond:/opt/ros/humble', 'SHELL': '/bin/bash', 'GOPATH': '/home/guilherme04/go', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/guilherme04/turtle_workspace/build/turtle_sim_hw', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/guilherme04/turtle_workspace/build/turtle_sim_hw/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages:/home/guilherme04/turtle_workspace/install/turtlesim/local/lib/python3.10/dist-packages:/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim', 'WSLENV': ''}, 'shell': False}
+[1.104565] (-) TimerEvent: {}
+[1.205029] (-) TimerEvent: {}
+[1.305498] (-) TimerEvent: {}
+[1.314669] (turtle_sim_hw) StdoutLine: {'line': b'running develop\n'}
+[1.405791] (-) TimerEvent: {}
+[1.451976] (turtle_sim_hw) StdoutLine: {'line': b'running egg_info\n'}
+[1.452444] (turtle_sim_hw) StdoutLine: {'line': b'creating turtle_sim_hw.egg-info\n'}
+[1.452718] (turtle_sim_hw) StdoutLine: {'line': b'writing turtle_sim_hw.egg-info/PKG-INFO\n'}
+[1.452937] (turtle_sim_hw) StdoutLine: {'line': b'writing dependency_links to turtle_sim_hw.egg-info/dependency_links.txt\n'}
+[1.453501] (turtle_sim_hw) StdoutLine: {'line': b'writing entry points to turtle_sim_hw.egg-info/entry_points.txt\n'}
+[1.453670] (turtle_sim_hw) StdoutLine: {'line': b'writing requirements to turtle_sim_hw.egg-info/requires.txt\n'}
+[1.453760] (turtle_sim_hw) StdoutLine: {'line': b'writing top-level names to turtle_sim_hw.egg-info/top_level.txt\n'}
+[1.453867] (turtle_sim_hw) StdoutLine: {'line': b"writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'\n"}
+[1.455170] (turtle_sim_hw) StdoutLine: {'line': b"reading manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'\n"}
+[1.455851] (turtle_sim_hw) StdoutLine: {'line': b"writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'\n"}
+[1.461341] (turtle_sim_hw) StdoutLine: {'line': b'running build_ext\n'}
+[1.461592] (turtle_sim_hw) StdoutLine: {'line': b'Creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle-sim-hw.egg-link (link to .)\n'}
+[1.462485] (turtle_sim_hw) StdoutLine: {'line': b'Installing start script to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/turtle_sim_hw\n'}
+[1.463119] (turtle_sim_hw) StdoutLine: {'line': b'\n'}
+[1.463670] (turtle_sim_hw) StdoutLine: {'line': b'Installed /home/guilherme04/turtle_workspace/build/turtle_sim_hw\n'}
+[1.463983] (turtle_sim_hw) StdoutLine: {'line': b'running symlink_data\n'}
+[1.464399] (turtle_sim_hw) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index\n'}
+[1.464528] (turtle_sim_hw) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index\n'}
+[1.464604] (turtle_sim_hw) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages\n'}
+[1.464676] (turtle_sim_hw) StdoutLine: {'line': b'symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/resource/turtle_sim_hw -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages\n'}
+[1.464772] (turtle_sim_hw) StdoutLine: {'line': b'symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/package.xml -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/turtle_sim_hw\n'}
+[1.502090] (turtle_sim_hw) CommandEnded: {'returncode': 0}
+[1.505900] (-) TimerEvent: {}
+[1.539423] (turtle_sim_hw) JobEnded: {'identifier': 'turtle_sim_hw', 'rc': 0}
+[1.541796] (-) EventReactorShutdown: {}

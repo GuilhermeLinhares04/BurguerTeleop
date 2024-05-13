@@ -1,0 +1,21 @@
+[15.543s] Invoking command in '/home/guilherme04/turtle_workspace/src/burguer_controller': PYTHONPATH=/home/guilherme04/turtle_workspace/build/burguer_controller/prefix_override:/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/burguer_controller build --build-base /home/guilherme04/turtle_workspace/build/burguer_controller/build install --record /home/guilherme04/turtle_workspace/build/burguer_controller/install.log --single-version-externally-managed install_data
+[19.678s] running egg_info
+[19.680s] writing ../../build/burguer_controller/burguer_controller.egg-info/PKG-INFO
+[19.685s] writing dependency_links to ../../build/burguer_controller/burguer_controller.egg-info/dependency_links.txt
+[19.686s] writing entry points to ../../build/burguer_controller/burguer_controller.egg-info/entry_points.txt
+[19.687s] writing requirements to ../../build/burguer_controller/burguer_controller.egg-info/requires.txt
+[19.699s] writing top-level names to ../../build/burguer_controller/burguer_controller.egg-info/top_level.txt
+[19.723s] reading manifest file '../../build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'
+[19.752s] writing manifest file '../../build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'
+[19.766s] running build
+[19.783s] running build_py
+[19.795s] running install
+[19.802s] running install_lib
+[19.828s] running install_data
+[19.829s] running install_egg_info
+[19.883s] removing '/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages/burguer_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[19.913s] Copying ../../build/burguer_controller/burguer_controller.egg-info to /home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages/burguer_controller-0.0.0-py3.10.egg-info
+[19.918s] running install_scripts
+[20.261s] Installing release_node script to /home/guilherme04/turtle_workspace/install/burguer_controller/lib/burguer_controller
+[20.277s] writing list of installed files to '/home/guilherme04/turtle_workspace/build/burguer_controller/install.log'
+[20.677s] Invoked command in '/home/guilherme04/turtle_workspace/src/burguer_controller' returned '0': PYTHONPATH=/home/guilherme04/turtle_workspace/build/burguer_controller/prefix_override:/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/burguer_controller build --build-base /home/guilherme04/turtle_workspace/build/burguer_controller/build install --record /home/guilherme04/turtle_workspace/build/burguer_controller/install.log --single-version-externally-managed install_data

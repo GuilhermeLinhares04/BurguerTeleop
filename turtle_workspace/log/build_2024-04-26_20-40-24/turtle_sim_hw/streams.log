@@ -1,0 +1,24 @@
+[1.011s] Invoking command in '/home/guilherme04/turtle_workspace/build/turtle_sim_hw': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_sim_hw/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build --no-deps symlink_data
+[1.314s] running develop
+[1.452s] running egg_info
+[1.452s] creating turtle_sim_hw.egg-info
+[1.452s] writing turtle_sim_hw.egg-info/PKG-INFO
+[1.453s] writing dependency_links to turtle_sim_hw.egg-info/dependency_links.txt
+[1.453s] writing entry points to turtle_sim_hw.egg-info/entry_points.txt
+[1.453s] writing requirements to turtle_sim_hw.egg-info/requires.txt
+[1.453s] writing top-level names to turtle_sim_hw.egg-info/top_level.txt
+[1.453s] writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+[1.455s] reading manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+[1.455s] writing manifest file 'turtle_sim_hw.egg-info/SOURCES.txt'
+[1.461s] running build_ext
+[1.461s] Creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle-sim-hw.egg-link (link to .)
+[1.462s] Installing start script to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/turtle_sim_hw
+[1.463s] 
+[1.463s] Installed /home/guilherme04/turtle_workspace/build/turtle_sim_hw
+[1.464s] running symlink_data
+[1.464s] creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index
+[1.464s] creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index
+[1.464s] creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages
+[1.464s] symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/resource/turtle_sim_hw -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages
+[1.464s] symbolically linking /home/guilherme04/turtle_workspace/build/turtle_sim_hw/package.xml -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/turtle_sim_hw
+[1.502s] Invoked command in '/home/guilherme04/turtle_workspace/build/turtle_sim_hw' returned '0': PYTHONPATH=/home/guilherme04/turtle_workspace/build/turtle_sim_hw/prefix_override:/home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build --no-deps symlink_data

@@ -1,0 +1,32 @@
+running develop
+Removing /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle-sim-hw.egg-link (link to .)
+running egg_info
+writing ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/requires.txt
+writing top-level names to ../../build/turtle_sim_hw/turtle_sim_hw.egg-info/top_level.txt
+reading manifest file '../../build/turtle_sim_hw/turtle_sim_hw.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_sim_hw/turtle_sim_hw.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build
+creating /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib
+creating /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib/turtle_sim_hw
+copying turtle_sim_hw/script.py -> /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib/turtle_sim_hw
+copying turtle_sim_hw/__init__.py -> /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib/turtle_sim_hw
+running install
+running install_lib
+creating /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw
+copying /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib/turtle_sim_hw/script.py -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw
+copying /home/guilherme04/turtle_workspace/build/turtle_sim_hw/build/lib/turtle_sim_hw/__init__.py -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw
+byte-compiling /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw/script.py to script.cpython-310.pyc
+byte-compiling /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/turtle_sim_hw -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/ament_index/resource_index/packages
+copying package.xml -> /home/guilherme04/turtle_workspace/install/turtle_sim_hw/share/turtle_sim_hw
+running install_egg_info
+Copying ../../build/turtle_sim_hw/turtle_sim_hw.egg-info to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/python3.10/site-packages/turtle_sim_hw-0.0.0-py3.10.egg-info
+running install_scripts
+Installing start script to /home/guilherme04/turtle_workspace/install/turtle_sim_hw/lib/turtle_sim_hw
+writing list of installed files to '/home/guilherme04/turtle_workspace/build/turtle_sim_hw/install.log'
