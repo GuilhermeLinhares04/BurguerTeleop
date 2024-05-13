@@ -30,25 +30,22 @@ class RobotController(Node):
 def key_listener(win, robot_controller):
     win.nodelay(True)
     curses.init_pair(1, curses.COLOR_WHITE, curses.COLOR_BLUE)
-    win.clear()
-    win.refresh()
-    
     key = ""
-    win.addstr(0, 0, "Mova o robô utilizando w/a/s/d, pressione 'e' para parar e 'q' para sair", curses.color_pair(1))
-
     while robot_controller.running:
-        win.addstr(1, 0, f"Velocidade atual - Linear: {robot_controller.vel_msg.linear.x: .2f}, Angular: {robot_controller.vel_msg.angular.z: .2f}  ")
+        win.clear()
+        win.addstr(0, 0, "Mova o robô com w/a/s/d, 'e' para parar e 'q' para sair", curses.color_pair(1))
+        win.addstr(1, 0, f"Velocidade atual - Linear: {robot_controller.vel_msg.linear.x}, Angular: {robot_controller.vel_msg.angular.z}")
         
         try:
             key = win.getkey()
             if key == 'w':
-                robot_controller.send_velocity(0.1, 0.0)
+                robot_controller.send_velocity(0.8, 0.0)
             elif key == 's':
-                robot_controller.send_velocity(-0.1, 0.0)
+                robot_controller.send_velocity(-0.8, 0.0)
             elif key == 'a':
-                robot_controller.send_velocity(0.0, 0.1)
+                robot_controller.send_velocity(0.0, 0.8)
             elif key == 'd':
-                robot_controller.send_velocity(0.0, -0.1)
+                robot_controller.send_velocity(0.0, -0.8)
             elif key == 'e':
                 rclpy.call(robot_controller.service)
             elif key == 'q':
