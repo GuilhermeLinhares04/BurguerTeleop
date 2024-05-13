@@ -29,4 +29,4 @@ Caso sua execução seja com o robô real, substitua o comando `ros2 launch webo
 
 Clique na imagem abaixo para assistir ao vídeo de demonstração do projeto:
 
-[![Vídeo de demonstração](https://arminlab.com/wp-content/uploads/2022/09/icons8-youtube-play-button-2048-300x300.png)]()
+[![Vídeo de demonstração](https://arminlab.com/wp-content/uploads/2022/09/icons8-youtube-play-button-2048-300x300.png)](https://youtu.be/1zHxBFF3PhI)
