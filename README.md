@@ -1,10 +1,10 @@
 # BurguerTeleop
 
-Este repositório contém um projeto em ROS 2 que move o robô _**Turtlebot3 Burger**_ através de teleoperação utilizando o teclado.
+Este repositório contém um projeto em ROS 2 que move o robô _**Turtlebot3 Burger**_ utilizando uma interface gráfica na web e transmite a webcam utilizando websocket.
 
 ## Requisitos
 
-Para executar este projeto, é necessário ter o **ROS 2** e o **Turtlebot3** instalados além de possuir o **Linux** como sistema operacional (também é possível utiliar o WSL). Caso a execução do código seja feita através de um simulador como _**Webots**_ ou _**Gazebo**_, é necessário realizar sua instalação no terminal. <br>
+Para executar este projeto, é necessário ter o **ROS 2** e o **Turtlebot3** instalados além de possuir o **Linux** como sistema operacional. Caso a execução do código seja feita através de um simulador como _**Webots**_ ou _**Gazebo**_, é necessário realizar sua instalação no terminal. <br>
 
 Por fim, é necessário clonar o repositório [ros2_tutorials](https://github.com/ros/ros_tutorials.git) no caminho `turtle_workspace/src`. Para isso, execute o comando abaixo:
 
@@ -29,4 +29,4 @@ Caso sua execução seja com o robô real, substitua o comando `ros2 launch webo
 
 Clique na imagem abaixo para assistir ao vídeo de demonstração do projeto:
 
-[![Vídeo de demonstração](https://arminlab.com/wp-content/uploads/2022/09/icons8-youtube-play-button-2048-300x300.png)](https://youtu.be/1zHxBFF3PhI)
+[![Vídeo de demonstração](https://arminlab.com/wp-content/uploads/2022/09/icons8-youtube-play-button-2048-300x300.png)](https://youtu.be/fZ5TvFkfdsU)
