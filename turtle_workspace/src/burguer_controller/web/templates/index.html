@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Controle Turtlebot2</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Interface de Controle TurtleBot3<h1>
+    <img id="videoFeed" src="" width="640" height="480" />
+    <div>
+        <button onclick="sendControl('forward')">Frente</button>
+        <button onclick="sendControl('backward')">Trás</button>
+        <button onclick="sendControl('left')">Esquerda</button>
+        <button onclick="sendControl('right')">Direita</button>
+        <button onclick="sendControl('stop')">Parar</button>
+        <button onclick="sendControl('emergency_stop')">Emergência</button>
+    </div>
+    <script type="text/javascript">
+        var socket = io();
+
+        function sendControl(action) {
+            socket.emit('control_robot', {action: action});
+        }
+
+        socket.on('video_frame', function(data) {
+            document.getElementById('videoFeed').src = 'data:image/jpeg;base64,' + data.image_data;
+        });
+    </script>
+</body>
+</html>

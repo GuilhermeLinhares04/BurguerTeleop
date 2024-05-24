@@ -1,0 +1,41 @@
+running egg_info
+creating build/burguer_controller/burguer_controller.egg-info
+writing build/burguer_controller/burguer_controller.egg-info/PKG-INFO
+writing dependency_links to build/burguer_controller/burguer_controller.egg-info/dependency_links.txt
+writing entry points to build/burguer_controller/burguer_controller.egg-info/entry_points.txt
+writing requirements to build/burguer_controller/burguer_controller.egg-info/requires.txt
+writing top-level names to build/burguer_controller/burguer_controller.egg-info/top_level.txt
+writing manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'
+reading manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'
+writing manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller
+copying burguer_controller/burguer_node.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller
+copying burguer_controller/__init__.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller
+running install
+running install_lib
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller
+copying /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller/burguer_node.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller
+copying /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller/__init__.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller
+byte-compiling /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller/burguer_node.py to burguer_node.cpython-310.pyc
+byte-compiling /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index/packages
+copying resource/burguer_controller -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/templates
+copying web/templates/index.html -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/templates
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static
+creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static/js
+copying web/static/js/script.js -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static/js
+running install_egg_info
+Copying build/burguer_controller/burguer_controller.egg-info to /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing release_node script to /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/burguer_controller
+writing list of installed files to '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/install.log'

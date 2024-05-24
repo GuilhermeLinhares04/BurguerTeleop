@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TurtleBot3 Control</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>TurtleBot3 Control Interface</h1>
+    <img id="videoFeed" src="{{ url_for('video_feed') }}" width="640" height="480" />
+    <div>
+        <button onclick="sendControl('forward')">Forward</button>
+        <button onclick="sendControl('backward')">Backward</button>
+        <button onclick="sendControl('left')">Left</button>
+        <button onclick="sendControl('right')">Right</button>
+        <button onclick="sendControl('stop')">Stop</button>
+        <button onclick="sendControl('emergency_stop')">Emergency Stop</button>
+    </div>
+    <script type="text/javascript">
+        var socket = io();
+
+        function sendControl(action) {
+            socket.emit('control_robot', {action: action});
+        }
+    </script>
+</body>
+</html>

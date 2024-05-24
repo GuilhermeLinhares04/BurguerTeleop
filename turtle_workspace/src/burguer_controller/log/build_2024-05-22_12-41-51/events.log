@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.007013] (burguer_controller) JobQueued: {'identifier': 'burguer_controller', 'dependencies': OrderedDict()}
+[0.008925] (burguer_controller) JobStarted: {'identifier': 'burguer_controller'}
+[0.090247] (-) TimerEvent: {}
+[0.202171] (-) TimerEvent: {}
+[0.306185] (-) TimerEvent: {}
+[0.410399] (-) TimerEvent: {}
+[0.512456] (-) TimerEvent: {}
+[0.615401] (-) TimerEvent: {}
+[0.717787] (-) TimerEvent: {}
+[0.820470] (-) TimerEvent: {}
+[0.924334] (-) TimerEvent: {}
+[1.026811] (-) TimerEvent: {}
+[1.128812] (-) TimerEvent: {}
+[1.232809] (-) TimerEvent: {}
+[1.334054] (-) TimerEvent: {}
+[1.435188] (-) TimerEvent: {}
+[1.538587] (-) TimerEvent: {}
+[1.641014] (-) TimerEvent: {}
+[1.743198] (-) TimerEvent: {}
+[1.845277] (-) TimerEvent: {}
+[1.947752] (-) TimerEvent: {}
+[2.050647] (-) TimerEvent: {}
+[2.155660] (-) TimerEvent: {}
+[2.258450] (-) TimerEvent: {}
+[2.359799] (-) TimerEvent: {}
+[2.461841] (-) TimerEvent: {}
+[2.566635] (-) TimerEvent: {}
+[2.669570] (-) TimerEvent: {}
+[2.772634] (-) TimerEvent: {}
+[2.877741] (-) TimerEvent: {}
+[2.980590] (-) TimerEvent: {}
+[3.084158] (-) TimerEvent: {}
+[3.187445] (-) TimerEvent: {}
+[3.291805] (-) TimerEvent: {}
+[3.394307] (-) TimerEvent: {}
+[3.496327] (-) TimerEvent: {}
+[3.598415] (-) TimerEvent: {}
+[3.701527] (-) TimerEvent: {}
+[3.805625] (-) TimerEvent: {}
+[3.915247] (-) TimerEvent: {}
+[4.019042] (-) TimerEvent: {}
+[4.132294] (-) TimerEvent: {}
+[4.248540] (-) TimerEvent: {}
+[4.352712] (-) TimerEvent: {}
+[4.455578] (-) TimerEvent: {}
+[4.560106] (-) TimerEvent: {}
+[4.662681] (-) TimerEvent: {}
+[4.764912] (-) TimerEvent: {}
+[4.870995] (-) TimerEvent: {}
+[4.980835] (-) TimerEvent: {}
+[5.089688] (-) TimerEvent: {}
+[5.200602] (-) TimerEvent: {}
+[5.305919] (-) TimerEvent: {}
+[5.410464] (-) TimerEvent: {}
+[5.513137] (-) TimerEvent: {}
+[5.619986] (-) TimerEvent: {}
+[5.722973] (-) TimerEvent: {}
+[5.826810] (-) TimerEvent: {}
+[5.930957] (-) TimerEvent: {}
+[6.032033] (-) TimerEvent: {}
+[6.133716] (-) TimerEvent: {}
+[6.234700] (-) TimerEvent: {}
+[6.341776] (-) TimerEvent: {}
+[6.444042] (-) TimerEvent: {}
+[6.562199] (-) TimerEvent: {}
+[6.667161] (-) TimerEvent: {}
+[6.771937] (-) TimerEvent: {}
+[6.873578] (-) TimerEvent: {}
+[6.975731] (-) TimerEvent: {}
+[7.086794] (-) TimerEvent: {}
+[7.192421] (-) TimerEvent: {}
+[7.294472] (-) TimerEvent: {}
+[7.398493] (-) TimerEvent: {}
+[7.499771] (-) TimerEvent: {}
+[7.601650] (-) TimerEvent: {}
+[7.705857] (-) TimerEvent: {}
+[7.812145] (-) TimerEvent: {}
+[7.917145] (-) TimerEvent: {}
+[8.020244] (-) TimerEvent: {}
+[8.124133] (-) TimerEvent: {}
+[8.227734] (-) TimerEvent: {}
+[8.332143] (-) TimerEvent: {}
+[8.441498] (-) TimerEvent: {}
+[8.548160] (-) TimerEvent: {}
+[8.653776] (-) TimerEvent: {}
+[8.757062] (-) TimerEvent: {}
+[8.859275] (-) TimerEvent: {}
+[8.961274] (-) TimerEvent: {}
+[9.066588] (-) TimerEvent: {}
+[9.168615] (-) TimerEvent: {}
+[9.273115] (-) TimerEvent: {}
+[9.374404] (-) TimerEvent: {}
+[9.400768] (burguer_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/burguer_controller', 'build', '--build-base', '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build', 'install', '--record', '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/guilherme04/turtle_workspace/src/burguer_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'guilherme04', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/guilherme04', 'OLDPWD': '/home/guilherme04/turtle_workspace/src', 'ROS_PYTHON_VERSION': '3', 'GOROOT': '/usr/local/go', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'guilherme04', 'NAME': 'DESKTOP-KJCV4VQ', 'WSL_INTEROP': '/run/WSL/359_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/guilherme04/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Users/Guilherme/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Python 3.11:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/Guilherme/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Guilherme/AppData/Roaming/npm:/snap/bin:/usr/local/go/bin:/home/guilherme04/go/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim:/home/guilherme04/turtle_workspace/install/turtle_pond:/home/guilherme04/turtle_workspace/install/clturtle_control:/home/guilherme04/turtle_workspace/install/burguer_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'GOPATH': '/home/guilherme04/go', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/prefix_override:/home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages:/home/guilherme04/turtle_workspace/install/turtlesim/local/lib/python3.10/dist-packages:/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages:/home/guilherme04/turtle_workspace/install/clturtle_control/lib/python3.10/site-packages:/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/guilherme04/turtle_workspace/install/turtlesim', 'WSLENV': ''}, 'shell': False}
+[9.475685] (-) TimerEvent: {}
+[9.579955] (-) TimerEvent: {}
+[9.683024] (-) TimerEvent: {}
+[9.786553] (-) TimerEvent: {}
+[9.891792] (-) TimerEvent: {}
+[9.993739] (-) TimerEvent: {}
+[10.096049] (-) TimerEvent: {}
+[10.197961] (-) TimerEvent: {}
+[10.300632] (-) TimerEvent: {}
+[10.402533] (-) TimerEvent: {}
+[10.505281] (-) TimerEvent: {}
+[10.609959] (-) TimerEvent: {}
+[10.712485] (-) TimerEvent: {}
+[10.815472] (-) TimerEvent: {}
+[10.918800] (-) TimerEvent: {}
+[11.023052] (-) TimerEvent: {}
+[11.123887] (-) TimerEvent: {}
+[11.238317] (-) TimerEvent: {}
+[11.340320] (-) TimerEvent: {}
+[11.446309] (-) TimerEvent: {}
+[11.549456] (-) TimerEvent: {}
+[11.670192] (-) TimerEvent: {}
+[11.773358] (-) TimerEvent: {}
+[11.876954] (-) TimerEvent: {}
+[11.981242] (-) TimerEvent: {}
+[12.083519] (-) TimerEvent: {}
+[12.187550] (-) TimerEvent: {}
+[12.289468] (-) TimerEvent: {}
+[12.392072] (-) TimerEvent: {}
+[12.494832] (-) TimerEvent: {}
+[12.597678] (-) TimerEvent: {}
+[12.700949] (-) TimerEvent: {}
+[12.805089] (-) TimerEvent: {}
+[12.906621] (-) TimerEvent: {}
+[13.007623] (-) TimerEvent: {}
+[13.011560] (burguer_controller) StdoutLine: {'line': b'running egg_info\n'}
+[13.015453] (burguer_controller) StdoutLine: {'line': b'creating build/burguer_controller/burguer_controller.egg-info\n'}
+[13.020124] (burguer_controller) StdoutLine: {'line': b'writing build/burguer_controller/burguer_controller.egg-info/PKG-INFO\n'}
+[13.028680] (burguer_controller) StdoutLine: {'line': b'writing dependency_links to build/burguer_controller/burguer_controller.egg-info/dependency_links.txt\n'}
+[13.038317] (burguer_controller) StdoutLine: {'line': b'writing entry points to build/burguer_controller/burguer_controller.egg-info/entry_points.txt\n'}
+[13.052130] (burguer_controller) StdoutLine: {'line': b'writing requirements to build/burguer_controller/burguer_controller.egg-info/requires.txt\n'}
+[13.053758] (burguer_controller) StdoutLine: {'line': b'writing top-level names to build/burguer_controller/burguer_controller.egg-info/top_level.txt\n'}
+[13.054748] (burguer_controller) StdoutLine: {'line': b"writing manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'\n"}
+[13.070272] (burguer_controller) StdoutLine: {'line': b"reading manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'\n"}
+[13.088166] (burguer_controller) StdoutLine: {'line': b"writing manifest file 'build/burguer_controller/burguer_controller.egg-info/SOURCES.txt'\n"}
+[13.095170] (burguer_controller) StdoutLine: {'line': b'running build\n'}
+[13.101720] (burguer_controller) StdoutLine: {'line': b'running build_py\n'}
+[13.114891] (-) TimerEvent: {}
+[13.117887] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build\n'}
+[13.132846] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib\n'}
+[13.135969] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller\n'}
+[13.140855] (burguer_controller) StdoutLine: {'line': b'copying burguer_controller/burguer_node.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller\n'}
+[13.142109] (burguer_controller) StdoutLine: {'line': b'copying burguer_controller/__init__.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller\n'}
+[13.164457] (burguer_controller) StdoutLine: {'line': b'running install\n'}
+[13.166310] (burguer_controller) StdoutLine: {'line': b'running install_lib\n'}
+[13.166826] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller\n'}
+[13.167191] (burguer_controller) StdoutLine: {'line': b'copying /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller/burguer_node.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller\n'}
+[13.179938] (burguer_controller) StdoutLine: {'line': b'copying /home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/build/lib/burguer_controller/__init__.py -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller\n'}
+[13.184975] (burguer_controller) StdoutLine: {'line': b'byte-compiling /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller/burguer_node.py to burguer_node.cpython-310.pyc\n'}
+[13.191001] (burguer_controller) StdoutLine: {'line': b'byte-compiling /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller/__init__.py to __init__.cpython-310.pyc\n'}
+[13.200806] (burguer_controller) StdoutLine: {'line': b'running install_data\n'}
+[13.215233] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index\n'}
+[13.221948] (-) TimerEvent: {}
+[13.224407] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index\n'}
+[13.226872] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index/packages\n'}
+[13.228377] (burguer_controller) StdoutLine: {'line': b'copying resource/burguer_controller -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/ament_index/resource_index/packages\n'}
+[13.228837] (burguer_controller) StdoutLine: {'line': b'copying package.xml -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller\n'}
+[13.229418] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web\n'}
+[13.230048] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/templates\n'}
+[13.230572] (burguer_controller) StdoutLine: {'line': b'copying web/templates/index.html -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/templates\n'}
+[13.230803] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static\n'}
+[13.231085] (burguer_controller) StdoutLine: {'line': b'creating /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static/js\n'}
+[13.231267] (burguer_controller) StdoutLine: {'line': b'copying web/static/js/script.js -> /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/share/burguer_controller/web/static/js\n'}
+[13.231443] (burguer_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.233933] (burguer_controller) StdoutLine: {'line': b'Copying build/burguer_controller/burguer_controller.egg-info to /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/python3.10/site-packages/burguer_controller-0.0.0-py3.10.egg-info\n'}
+[13.241882] (burguer_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[13.323064] (-) TimerEvent: {}
+[13.428306] (-) TimerEvent: {}
+[13.471658] (burguer_controller) StdoutLine: {'line': b'Installing release_node script to /home/guilherme04/turtle_workspace/src/burguer_controller/install/burguer_controller/lib/burguer_controller\n'}
+[13.476520] (burguer_controller) StdoutLine: {'line': b"writing list of installed files to '/home/guilherme04/turtle_workspace/src/burguer_controller/build/burguer_controller/install.log'\n"}
+[13.528997] (-) TimerEvent: {}
+[13.637459] (-) TimerEvent: {}
+[13.741556] (-) TimerEvent: {}
+[13.848561] (-) TimerEvent: {}
+[13.854296] (burguer_controller) CommandEnded: {'returncode': 0}
+[13.951832] (-) TimerEvent: {}
+[14.054199] (burguer_controller) JobEnded: {'identifier': 'burguer_controller', 'rc': 0}
+[14.105545] (-) TimerEvent: {}
+[14.106526] (-) EventReactorShutdown: {}

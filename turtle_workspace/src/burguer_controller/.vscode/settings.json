@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/guilherme04/turtle_workspace/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages",
+        "/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/guilherme04/turtle_workspace/install/turtlesim/local/lib/python3.10/dist-packages",
+        "/home/guilherme04/turtle_workspace/install/turtle_pond/lib/python3.10/site-packages",
+        "/home/guilherme04/turtle_workspace/install/burguer_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
